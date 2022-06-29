@@ -24,7 +24,7 @@ def distance(x1, x2):
     return np.sqrt(((x1-x2)**2).sum())
 
 
-def knn(train, test, k=5):
+def knn(train, test, k=20):
     dist = []
 
     for i in range(train.shape[0]):
